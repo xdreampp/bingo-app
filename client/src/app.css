@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+
+.bingo-board {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.bingo-board th, .bingo-board td {
+  border: 2px solid #444;
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.bingo-board .free {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+}
